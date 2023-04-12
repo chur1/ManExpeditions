@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1",
+    "js-cookie": "^3.0.1",
     "next": "13.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^5.3.6",
+    "tailwindcss": "^3.0.23",
     "urql": "^3.0.3"
   }
 }

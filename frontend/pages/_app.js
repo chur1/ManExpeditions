@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Provider value={client}>
-      <Nav />
+      {/* <Nav /> */}
       <Component {...pageProps} />
     </Provider>
 
