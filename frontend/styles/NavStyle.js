@@ -12,11 +12,45 @@ export const NavStyles = styled.div`
         margin-left: 2rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 1.5rem;
-        color: #f1f1f1;
     }
     img{
         margin: 0.5rem;
         max-width: 7rem;
+    }
+
+    form{
+        margin-left: 2rem;
+        display: flex;
+    }
+    input{
+        margin-left:0.5rem;
+        margin-right: 0.5rem;
+        text-align: center;
+        padding: 0px 2.5rem;
+        border-radius: 10px;
+        border: 2.5px solid rgba(0, 0, 0, 0.5);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        caret-color:blue; 
+    }
+
+    button{
+        margin-left: 0.5rem;
+        padding: 0.5rem 0.5rem;
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        color: #f1f1f1;
+        background-color: #535353;
+        margin-right: -0.2rem;
+        border: 1.25px solid rgba(0, 0, 0, 0.5);
+
+    }
+    button:hover{
+        background-color: rgba(0, 0, 0, 0.01);
+        border-color: #f1f1f1
+        // color: white
+
     }
     
 `
