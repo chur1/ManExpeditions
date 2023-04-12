@@ -15,7 +15,7 @@ export default function Home() {
   const {data, fetching, error} = results;
   const [searchTerm, setSearchTerm] = useState('');
   
-  // check for incoming data
+// check for incoming data
 if(fetching) return <p>Loading...</p>
 if(error) return <p>Oh no...</p>
 const products = data.products.data;
