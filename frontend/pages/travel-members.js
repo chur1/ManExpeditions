@@ -7,7 +7,7 @@ import { Gallery } from '../styles/Gallery';
 import {useState} from 'react'
 import Layout from '../components/Layout';
 import { useFetchUser } from '../lib/authContext';
-import { Description } from '../styles/pageDescription'
+import { Description } from '../styles/memberPageDescription'
 import { Input } from '../styles/Input'
 
 export default function Browse() {
@@ -25,8 +25,8 @@ console.log(members)
   return (
     <Layout user={user}>
       <Description>
-          <h1>Welcome to Man Expeditions</h1>
-          <h3>Explore Global Experiences</h3>
+          <h1>Man Expeditions</h1>
+          <h3>Find Your Mates</h3>
           <h5>Get matched with like-minded travel buddies, and create extraordinary memories.</h5>
           <Input>
             <input className="center-block" type="text" placeholder="Search Your Next Trip..." onChange={(event)=>{setSearchTerm(event.target.value);}}/>
