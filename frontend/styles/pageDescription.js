@@ -1,7 +1,9 @@
 import styled from "styled-components"
 
 export const Description = styled.nav`
-    background-color: black;
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: cover;
+    // background-color: black;
     h1{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 300;

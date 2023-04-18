@@ -7,15 +7,17 @@ export const NavStyles = styled.div`
     justify-content: space-between;
     align-items: center;
     font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 1.70);
     a {
         margin-left: 2rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.45rem;
     }
     img{
-        margin: 0.5rem;
-        max-width: 7rem;
+        margin: 0.4rem;
+        max-width: 6rem;
+        // margin: 0.5rem;
+        // max-width: 7rem;
     }
 
     form{
@@ -28,7 +30,7 @@ export const NavStyles = styled.div`
         text-align: center;
         padding: 0px 2.5rem;
         border-radius: 10px;
-        border: 2.5px solid rgba(0, 0, 0, 0.5);
+        border: 2.0x solid rgba(0, 0, 0, 0.5);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 14px;
         caret-color:blue; 
