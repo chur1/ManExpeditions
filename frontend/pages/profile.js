@@ -5,10 +5,11 @@ import Layout from '../components/Layout';
 import { fetcher } from '../lib/api';
 import { getIdFromLocalCookie, getTokenFromServerCookie } from '../lib/auth';
 import { useFetchUser } from '../lib/authContext';
-const Profile = ({ avatar }) => {
+const Profile = ({ avatar, name, age, description }) => {
   const { user, loading } = useFetchUser();
   const [image, setImage] = useState(null);
   const router = useRouter();
+
 
   const uploadToClient = (event) => {
     if (event.target.files && event.target.files[0]) {
@@ -63,6 +64,9 @@ const Profile = ({ avatar }) => {
             alt="Profile"
           />
         )}
+        <p>{name}</p>
+        <p>{age}</p>
+        <p>{description}</p>
       </>
     </Layout>
   );
@@ -88,9 +92,15 @@ export async function getServerSideProps({ req }) {
       }
     );
     const avatar = responseData.avatar ? responseData.avatar : 'default_avatar';
+    const name = responseData.name;
+    const age = responseData.age;
+    const description = responseData.description;
     return {
       props: {
         avatar,
+        description,
+        name,
+        age,
       },
     };
   }
