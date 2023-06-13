@@ -1,7 +1,12 @@
 module.exports = [
   'strapi::errors',
   'strapi::security',
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['https://man-expeditions-tony-kc5irkk3k-chur1.vercel.app/'], // Add your Vercel frontend URL here
+    },
+  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
