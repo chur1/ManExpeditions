@@ -24,6 +24,7 @@ export const useFetchUser = () => {
     user: userState || null,
     loading: userState === undefined,
   });
+  console.log(data);
 
   useEffect(() => {
     if (userState !== undefined) {

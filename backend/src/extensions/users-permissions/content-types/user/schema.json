@@ -65,6 +65,33 @@
     },
     "avatar": {
       "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image1": {
+      "type": "string"
+    },
+    "image2": {
+      "type": "string"
+    },
+    "image3": {
+      "type": "string"
+    },
+    "image4": {
+      "type": "string"
+    },
+    "image5": {
+      "type": "string"
+    },
+    "image6": {
+      "type": "string"
     }
   }
 }

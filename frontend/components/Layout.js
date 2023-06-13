@@ -26,6 +26,13 @@ const Layout = ({ user, loading = false, children }) => (
         <div className="text-2xl font-medium">{children}</div>
       </div>
     </main>
+    {/* <footer>
+        <p>hi</p>
+        <h1>ManExpeditions</h1>
+        <h2>About Us</h2>
+        <h3>Hello!</h3>
+        <h4>hello</h4>
+    </footer> */}
   </UserProvider>
 );
 export default Layout;
