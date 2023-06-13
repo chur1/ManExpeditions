@@ -20,6 +20,9 @@ export const Input = styled.nav`
 `;
 
 export const Form = styled.div`
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    padding: 0.5rem;
 
     button{
 
@@ -29,7 +32,7 @@ export const Form = styled.div`
         font-size: 14px;
         color: #f1f1f1;
         background-color: #535353;
-        // margin-right: -0.2rem;
+        margin-right: -0.2rem;
         border: 1.25px solid rgba(0, 0, 0, 0.5);
 
     }
@@ -47,7 +50,7 @@ export const Form = styled.div`
 	form label{
 		display: inline-block;
 		text-align: right;
-		float: left;
+
         margin-bottom: 4px;
 	}
 
@@ -55,12 +58,8 @@ export const Form = styled.div`
         margin-bottom: 0.5rem;
 		display: inline-block;
 		text-align: left;
-		// float: right;
-	}
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 400;
-    padding: 0.5rem;
-`
+	}
+`;
 
 export default Input; Form;
