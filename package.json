@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "pg": "^8.11.0",
-    "pg-connection-string": "^2.6.0"
-  }
-}
